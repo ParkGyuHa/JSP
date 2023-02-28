@@ -29,6 +29,7 @@ public class HelloServlet extends HttpServlet {
 		out.print("<h1>Hello</h1>");
 		out.print("</body>");
 		out.print("</html>");
+		
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
